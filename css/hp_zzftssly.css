@@ -1,0 +1,1071 @@
+/* 头部模块 */
+.current {
+    display: block!important;
+}
+/* body {
+    height: 2000px;
+} */
+.black1 {
+    display: block!important;
+    z-index: 999;
+}
+header {
+    height: 270px;
+}
+.top {
+    height: 45px;
+    color: #666;
+    font-size: 12px;
+    background-color: #f3f3f3;
+}
+.top .top-left {
+    float: left;
+    width: 620px;
+}
+.top .top-left a:nth-child(1) {
+    float: left;
+    width: 120px;
+    height: 35px;
+    background: url(./../images/hp_zlogo.png) no-repeat;
+    margin: 5px 15px 0 35px;
+}
+.top .top-left .a1 {
+    float: left;
+    width: 90px;
+    height: 45px;
+    font-size: 14px;
+    line-height: 45px;
+    text-align: center;
+}
+.top .top-right {
+    float: right;
+    width: 584px;
+    height: 45px;
+    line-height: 45px;
+
+}
+.top .top-right .droplist_park {
+    float: left;
+    width: 137px;
+    height: 27px;
+    border: 1px solid #a6a6a6;
+    margin: 8px 0 0;
+}
+/* .top .top-right .droplist_park:hover .ul_park {
+    display: block!important;
+    z-index: 999;
+} */
+.top .top-right .droplist_park .chose_park {
+    /* width: 137px; */
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+.top .top-right .droplist_park .chose_park span {
+    float: right;
+    width: 10px;
+    height: 10px;
+    margin: 8px 12px 0 0;
+    background: url(./../images/hp_triangle.png) no-repeat;
+    background-size: 10px 10px;
+}
+.top .top-right .droplist_park .ul_park {
+    display: none;
+    position: absolute;
+    width: 137px;
+    margin: -1px 0 0 -1px;
+    padding-top: 5px;
+    background-color: #3287c3;
+    z-index: 999;
+}
+.top .top-right .droplist_park .ul_park li {
+    position: relative;
+    float: left;
+    width: 137px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #3287c3;
+}
+.top .top-right .droplist_park .ul_park li:hover {
+    background-color: #409cdd;
+}
+.top .top-right .droplist_park .ul_park li .ul_park_wuhu {
+    position: absolute;
+    left: 137px;
+    top: 0;
+    display: none;
+    width: 137px;
+    z-index: 999;
+}
+.top .top-right .droplist_park .ul_park li .ul_park_wuhu li {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #409cdd;
+}
+/* .top .top-right .droplist_park .ul_park li:hover .ul_park_wuhu {
+    display: block!important;
+    z-index: 999;
+} */
+.top .top-right .droplist_park .ul_park li a {
+    color: #fff;
+}
+.top .top-right  #dp_park1 {
+    margin: 8px 0 0 20px;
+}
+.top .top-right .top-tel {
+    float: right;
+    width: 260px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 10px 20px 10px 10px;
+}
+.global_top_nav {
+    position: relative;
+    height: 225px;
+    background: url(./../images/hp_top1.png) no-repeat center;
+    z-index: 9;
+}
+.global_top_nav .top_nav {
+    /* position: absolute; */
+    width: 1200px;
+    /* overflow: hidden; */
+    /* height: 225px; */
+    /* background-color: red; */
+    margin: 0 auto;
+}
+.global_top_nav .top_nav .top_Logo {
+    position: absolute;
+    width: 189px;
+    margin-top: 10px;
+}
+.global_top_nav .top_nav .nav_btn_list_wrap {
+    position: relative;
+    width: 1008px;
+    height: 225px;
+    left: 16%;
+    /* background-color: blue; */
+    margin-left: 100px;
+}
+.global_top_nav  .nav_btn_list {
+    width: 1008px;
+    position: absolute;
+}
+.global_top_nav  .nav_btn_list .topNavBtns_zone {
+    float: left;
+    /* margin-right: 50px; */
+}
+.nav_btn_list_wrap .nav_btn_list .topNavBtns_zone .topNavBtns {
+    display: inline-block;
+    /* width: 80px; */
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 15px 10px;
+    margin: 15px 28px 0;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    /* font-weight: 700; */
+}
+
+
+.nav_btn_list .topNavBtns_zone a .drop_left {
+    width: 122px;
+    height: 67px;
+    background: url(./../images/hp_water-drop.png) 0px 0px no-repeat;
+    position: absolute;
+    left: -12px;
+    display: none;
+    top: 18px;
+}
+.nav_btn_list .topNavBtns_zone a .drop_left1 {
+    left: -30px;
+    top: 18px;
+}
+.nav_btn_list_wrap .nav_btn_list .topNavBtns_zone .topNavOPlist {
+    display: none;
+    position: relative;
+    width: 116px;
+    height: 40px;
+    left: 0px;
+    top: 60px;
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderT {
+    width: 157px;
+    height: 30px;
+    background: url(../images/hp_wdrop_01.png) 0px 0px no-repeat;
+    position: absolute;
+    left: 0px;
+    top: -30px;
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderM {
+    background: url(../images/hp_wdrop_02.png) repeat-y;
+    width: 157px;
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderMTop {
+    height: 188px!important;
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderMTO {
+    height: 110px!important;
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderMTP {
+    height: 260px!important;
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderMTop1 {
+    height: 110px!important;
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderM a {
+    /* float: left; */
+    display: block;
+    width: 157px;
+    height: 34px;
+    line-height: 46px;
+    color: #1c7ce6;
+    text-align: center;
+    font-size: 16px;
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderM a em {
+    width: 141px;
+    height: 52px;
+    background: url(./../images/hp_list-back-Bottom1.png) no-repeat;
+    margin-left: 8px;
+    display: block;
+    /* position: absolute;
+    left: 0px;
+    top: -30px; */
+    /* padding: 0; */
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderM a em:hover {
+    background: url(./../images/hp_list-back.png) no-repeat;
+    color: #fff;
+}
+.topNavBtns_zone .topNavOPlist .topNavBtns_zone_borderB {
+    width: 157px;
+    height: 30px;
+    background: url(../images/hp_wdrop_03.png) 0px 0px no-repeat;
+    float: left;
+}
+/* .global_top_nav  .nav_btn_list .topNavBtns_zone a:hover em {
+    display: block;
+} */
+.benner {
+    height: 691px;
+    /* overflow: hidden; */
+    position: relative;
+    margin-top: -100px;
+    z-index: -1;
+}
+.slotholder {
+    /* position: absolute; */
+    /* top: -100px; */
+    /* left: 0; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* margin-top: -100px; */
+    background: url(./../images/hp_index.jpg) no-repeat center;
+    background-size: cover;
+    opacity: 1;
+    z-index: -1;
+}
+.b-top2 {
+    position: absolute;
+    top: 780px;
+    left: 0;
+    height: 196px;
+    z-index: 99;
+}
+.b-top2 img {
+    width: 100%;
+    height: 100%;
+}
+.index_content {
+    height: 2663px;
+}
+.backdrop {
+    height: 1200px;
+    width: 100%;
+    background: url(./../images/hp_bj_04.jpg);
+}
+.backdrop_content {
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 161px;
+}
+.video {
+    float: left;
+    overflow: hidden;
+}
+.video img {
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+.video:hover img {
+    transform: scale(1.1);
+}
+.v-right {
+    float: left;
+    width: 500px;
+    height: 357px;
+    margin-left: 136px;
+    /* background: orange; */
+}
+@keyframes up {
+    0% {
+        transform: translate(0px, 0px);
+        /* top: 12px; */
+    }
+    25% {
+        transform: translate(0px, -10px);
+        /* top: 2px; */
+    }
+    50% {
+        transform: translate(0px, 0px);
+        /* top: 10px; */
+    }
+    65% {
+        transform: translate(0px, -3px);
+        /* top: 12px; */
+    }
+    80% {
+        transform: translate(0px, 0px);
+        /* top: 9px; */
+    }
+    90% {
+        transform: translate(0px, -1px);
+        /* top: 9px; */
+    }
+    100% {
+        transform: translate(0px, 0px);
+        /* top: 12px; */
+    }
+}
+.Bv-right-t,
+.Bv-right-l {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #0aa8f2;
+}
+.Bv-right-t a {
+    position: relative;
+}
+.Bv-right-l a {
+    position: relative;
+}
+.v-right a img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    z-index: 9;
+}
+.Bv-right a img:hover {
+    animation: up .7s;
+}
+.Bv-right1 a img:hover {
+    animation: up .7s;
+}
+.Bv-right-t a span,
+.Bv-right-l a span {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 60px;
+}
+.Time1,
+.Time2 {
+    float: left;
+    width: 230px;
+    height: 60px;
+    font-size: 18px;
+    color: #0099e0;
+    font-weight: bold;
+    margin: 25px 20px;
+}
+.Bv-right1 .Bv-right-l {
+    background-color: #ff9933;
+}
+.Time1 span {
+    display: block;
+    margin-bottom: 15px;
+}
+.Time2 {
+    color: #f27900;
+}
+.Time2 span {
+    display: block;
+    margin-bottom: 15px;
+}
+.Bv-right,
+.Bv-right1 {
+    height: 100px;
+    margin-bottom: 40px;
+    /* background-color: pink; */
+}
+
+.Bv-right2 {
+    /* background-color: purple; */
+    height: 63px;
+}
+.Bv-right2 a {
+    display: block;
+    /* position: relative; */
+    
+}
+@keyframes move {
+    0% {
+        background-position: -273px 0;
+    }
+    100% {
+        background-position: 273px 0;
+    }
+}
+.Bv-right2 a em {
+    float: left;
+    width: 273px;
+    height: 57px;
+    line-height: 57px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    background:  #0099e0 url(./../images/hp_indexgb.png) no-repeat 0 0;
+    animation: move 2s linear infinite;
+    /* -webkit-animation: move 1s linear infinit; */
+    
+}
+.Bv-right2 a span {
+    float: left;
+    width: 50px;
+    height: 57px;
+    background: #f08c28 url(./../images/hp_rbutton.png) no-repeat center;
+    
+}
+.middle {
+    margin-top: -288px;
+    position: relative;
+    width: 100%;
+    height: 1064px;
+    background: url(../images/hp_midd.png) no-repeat;
+}
+.index_mid_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+.content {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 68px;
+    margin-top: 180px;
+}
+.md-content {
+    width: 300px;
+    height: 120px;
+    float: left;
+    padding-top: 20px;
+    margin-left: 80px;
+    z-index: 9;
+}
+.md-content a {
+    color: #289fe3;
+}
+.content2 a {
+    color: #f79226;
+}
+.content3 a {
+    color: #339933;
+}
+.md-content a h4 {
+    text-align: center;
+    display: block;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+}
+.md-content a em {
+    text-align: center;
+    display: block;
+    height: 30px;
+    position: relative;
+    z-index: 999;
+}
+.md-content a b {
+    display: block;
+    background: url(../images/hp_oval-shaped-two.png) no-repeat top center;
+    width: 279px;
+    height: 116px;
+    margin-top: -70px;
+}
+.md-content a i {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 120px;
+    background: url(../images/hp_oval-shaped.png)no-repeat top center;
+    top: 190px;
+    z-index: 99;
+}
+.md-content .pic-list {
+    border-radius: 8px;
+    float: left;
+    margin-left: -34px;
+    border: 10px solid rgba(255,255,255,0.5);
+    position: absolute;
+    overflow: hidden;
+    /* margin-top: 44px; */
+    top: 340px;
+    cursor: pointer;
+} 
+.md-content .pic-list img {
+    border: none;
+    vertical-align: middle;
+}
+.md-content .pic-list p {
+    display: none;
+    font-size: 16px;
+    text-indent: 20px;
+    line-height: 30px;
+    background: rgba(0,0,0,0.5);
+    width: 342px;
+    height: 480px;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.md-content .pic-list p span {
+    display: block;
+    width: 227px;
+    margin: 100px auto;
+}
+.index_route {
+    height: 687px;
+}
+.index_route > img {
+    width: 100%;
+    position: absolute;
+    margin-top: -174px;
+    z-index: -1;
+}
+.route {
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.route_top_title {
+    width: 300px;
+    margin: 0 auto;
+}
+.route-top {
+    height: 60px;
+}
+.route-top h3 {
+    color: #1c7ce6;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.route-top a {
+    display: block;
+    color: #f79226;
+    text-align: center;
+    font-size: 18px;
+}
+.route-top a span {
+    color: #1c7ce6;
+}
+.wante {
+    width: 301px;
+    height: 30px;
+    position: absolute;
+    margin-top: 10px;
+    background: url(./../images/hp_wane1.png) no-repeat top center;
+    background-size: 90%;
+}
+.warp {
+    position: relative;
+    top: 50px;
+    left: 0;
+    height: 484px;
+    overflow: hidden;
+}
+/* .swiper-slide {
+    
+} */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+.swiper-wrapper {
+    width: 600%;
+    height: 484px;
+
+}
+.swiper-slide {
+    float: left;
+    /* text-align: center; */
+    font-size: 18px;
+    background: #fff;
+    /* position: relative; */
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide1 .swiper-button-next {
+    position: absolute;
+    top: 278px;
+    left: 1076px;
+    width: 73px;
+    height: 73px;
+    background: url(./../images/hp_arrow.png) no-repeat -412px 0;
+    z-index: 9;
+}
+.swiper-slide1 .swiper-button-prev {
+    position: absolute;
+    top: 278px;
+    left: 664px;
+    width: 73px;
+    height: 73px;
+    background: url(./../images/hp_arrow.png) no-repeat 0 0;
+    z-index: 9;
+}
+.swiper-slide1 {
+    /* float: left; */
+    width: 1200px;
+    height: 484px;
+    /* overflow: hidden; */
+    /* float: left; */
+    position: absolute;
+    top: 0;
+    left: 1200px;
+    
+}
+.swiper-slide0 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+.swiper-slide2 {
+    position: absolute;
+    top: 0;
+    left: 2400px;
+}
+.swiper-slide3 {
+    position: absolute;
+    top: 0;
+    left: 3600px;
+}
+.swiper-slide4 {
+    position: absolute;
+    top: 0;
+    left: 4800px;
+}
+.swiper-slide1 section {
+    height: 200px;
+    width: 215px;
+    position: absolute;
+    margin-left: 117px;
+    color: #fff;
+    font-size: 24px;
+    background: url(../images/hp_corner_01.png) no-repeat;
+    background-size: 55%;
+    /* margin-top: -10px; */
+}
+  .swiper-slide1 section h3 {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .swiper-slide1 section span {
+    color: #333333;
+    font-size: 18px;
+    background: #ffffff;
+    border-radius: 20px;
+    line-height: 20px;
+    position: absolute;
+    padding: 14px 15px;
+    margin-left: -30px;
+    margin-top: 20px;
+    width: 150px;
+    text-align: center;
+  }
+  .swiper-slide1  div {
+    width: 440px;
+    height: 440px;
+    position: absolute;
+    background: #ffffff;
+    color: #666666;
+    font-size: 16px;
+    top: 74px;
+    left: 686px;
+    /* box-shadow: 0px 1px 3px #ccc; */
+  }
+  .swiper-slide1 div h4 {
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 50px;
+    color: #ffffff;
+    padding: 10px 20px;
+    line-height: 44px;
+    width: 160px;
+    background: url(../images/hp_bubble.png) no-repeat top center;
+  }
+  .swiper-slide1 div span {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 100px;
+    line-height: 25px;
+  }
+  .swiper-slide1 div h3 {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 60px;
+    color: #ff9933;
+  }
+  .swiper-slide1 div p {
+    margin-top: 260px;
+    padding: 10px 40px 0 60px;
+    line-height: 23px;
+  }
+@keyframes wante {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 1903px 0;
+    }
+}
+@keyframes wante1 {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -1903px 0;
+    }
+}
+.news {
+    position: relative;
+
+}
+.wante1 {
+    width: 100%;
+    height: 76px;
+    position: absolute;
+    background: url(../images/hp_wave2_011.png) 0 0 repeat-x;
+    left: 0;
+    top: -25px;
+    animation: wante1 65s linear both infinite;
+}
+.wante2 {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    background: url(../images/hp_wave2_011.png) 0 0 repeat-x;
+    left: 0;
+    top: -15px;
+    animation: wante1 25s linear both infinite;
+}
+.news_wante2 {
+    width: 100%;
+    height: 727px;
+    /* position: absolute; */
+    background: url(../images/hp_wave1_01.png) 0 0 repeat-x;
+    /* left: 0;
+    top: 0px; */
+    animation: wante 45s linear both infinite;
+    -webkit-animation: wante 45s linear both infinite;
+}
+.news_wante2 {
+    height: 843px;
+}
+.news_wante2 > div > img {
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+
+}
+.index_news_content {
+    width: 1200px;
+    margin: -670px auto 0;
+    overflow: hidden;
+    height: 402px;
+
+    /* position: relative; */
+}
+.news_left {
+    position: absolute;
+    top: 178px;
+    /* left: 427px; */
+    margin-left: 73px;
+}
+.news_right {
+    position: absolute;
+    top: 224px;
+    left: 910px;
+    width: 540px;
+    line-height: 40px;
+    background: rgba(255,255,255,0.3);
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.news_notice {
+    background: url(./../images/hp_ripple.png) no-repeat center 50px;
+    padding: 15px;
+}
+.news_notice span {
+    padding: 10px 0 12px 22px;
+    margin-right: 268px;
+}
+.news_notice_more {
+    background: url(../images/hp_more.png) no-repeat;
+    width: 85px;
+    height: 29px;
+    position: absolute;
+    top: 18px;
+}
+.news_noticeB a {
+    display: block;
+    overflow: hidden;
+}
+.news_noticeB a:hover  h4 {
+    color: #ff9933;
+}
+.news_noticeB a:hover  span {
+    color: #ff9933;
+}
+.news_noticeB a h4 {
+    color: #ffffff;
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    float: left;
+    padding-bottom: 6px;
+}
+.news_noticeB a span {
+    float: right;
+    color: #ffffff;
+    padding-right: 30px;
+    font-size: 16px;
+}
+footer {
+    position: absolute;
+    height: 135px;
+    background: #1a57b6;
+    width: 100%;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: -135px;
+}
+.f-con {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 26px;
+}
+.f-nav a {
+    color: #fff;
+    transition: 0.5s;
+    margin: 0 10px;
+}
+.f-nav a:hover {
+    color: rgba(114, 236, 76, .5);
+}
+.f-nav span {
+    color: #fff;
+    margin: 0 7px;
+}
+.f-word {
+    transition: 0.5s;
+    margin: 10px 10px;
+}
+.f-word a {
+    color: #fff;
+    margin: 0 10px;
+}
+.home_right_suspension {
+    width: 100px;
+    height: 320px;
+    background: url(./../images/hp_right_supback.png) no-repeat;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    margin-top: -140px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    background-size: 120px 320px;
+    /* padding: 10px 0 10px 14px; */
+    z-index: 999;
+
+}
+.weixin {
+    /* flex: 1; */
+    width: 69px;
+    height: 52px;
+    position: absolute;
+    top: 25px;
+    right: 4px;
+}
+.weixin a {
+    width: 69px;
+    height: 52px;
+    background: url(./../images/hp_weixin.png) no-repeat center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+.weixin a:hover {
+    background: url(./../images/hp_all_back.png) no-repeat 0 0;
+}
+.weixin_hide {
+    display: none;
+    position: absolute;
+    top: -20px;
+    right: -10px;
+}
+.weixin_hide .hide_one  {
+    width: 29px;
+    height: 21px;
+    background: url(./../images/hp_over_circle.png) no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 90px;
+    
+}
+.weixin_hide .hide_two {
+    width: 143px;
+    height: 143px;
+    background: url(./../images/hp_erweim.png);
+    position: absolute;
+    top: 0;
+    right: 130px;
+}
+.weibo {
+    width: 69px;
+    height: 52px;
+    position: absolute;
+    top: 95px;
+    right: 4px;
+}
+.weibo a {
+    width: 69px;
+    height: 52px;
+    background: url(./../images/hp_weibo.png) no-repeat center;
+    position: absolute;
+    
+}
+.weibo a:hover {
+    background: url(./../images/hp_all_back.png) no-repeat 0 -64px;
+    
+}
+.telphone {
+    width: 69px;
+    height: 52px;
+    position: absolute;
+    top: 165px;
+    right: 4px;
+}
+.telphone a {
+    width: 69px;
+    height: 52px;
+    background: url(./../images/hp_telphone.png) no-repeat center;
+    position: absolute;
+}
+.telphone a:hover {
+    background: url(./../images/hp_all_back.png) no-repeat 0 -127px;
+}
+.telphone_hide {
+    display: none;
+    position: absolute;
+    top: -152px;
+    right: -10px;
+}
+.telphone_hide .hide_one {
+    width: 29px;
+    height: 21px;
+    background: url(./../images/hp_over_circle.png) no-repeat;
+    position: absolute;
+    top: 150px;
+    right: 90px;
+}
+.telphone_hide .hide_two {
+    width: 238px;
+    height: 64px;
+    background: url(./../images/hp_T_back.png) no-repeat;
+    position: absolute;
+    top: 150px;
+    right: 130px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 24px;
+    text-indent: 35px;
+}
+.telphone_hide .hide_two span {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 16px;
+    right: 190px;
+    background: url(./../images/hp_phone_icon.png) no-repeat;
+}
+.Slogo {
+    width: 69px;
+    height: 52px;
+    position: absolute;
+    top: 235px;
+    right: 4px;
+}
+.Slogo a {
+    width: 69px;
+    height: 52px;
+    background: url(./../images/hp_S_logo.png) no-repeat center;
+    position: absolute;
+}
+.Slogo a:hover {
+    background: url(./../images/hp_all_back.png) no-repeat 0 -191px;
+}
+.ding {
+    width: 83px;
+    height: 83px;
+    background: url(../images/hp_back_top.png) no-repeat;
+    position: fixed;
+    z-index: 99;
+    bottom: 174px;
+    right: 4px;
+    text-align: center;
+    line-height: 80px;
+    color: #1a57b6;
+    font-size: 14px;
+    z-index: 999;
+    cursor: pointer;
+}
+.ding span {
+    background: url(./../images/hp_to-top.png) no-repeat;
+    width: 16px;
+    height: 19px;
+    position: absolute;
+    top: 8px;
+    left: 34px;
+}

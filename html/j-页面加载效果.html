@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../images/j-标题.png">
+    <scrip src="../js/j-jquery.min.js"></scrip>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .img {
+            width: 100%;
+            height: 100%;
+            background: url("../images/j-sz-背景.jpg");
+            position: fixed;
+            top: 0;
+            left: 0;
+            /* z-index: 16000; */
+        }
+
+        .img>.box {
+            position: relative;
+            width: 500px;
+            height: 277px;
+            /* background-color: beige; */
+            margin: 260px auto;
+            transform-origin: 55% 99%;
+            transform: rotateZ(15deg);
+
+            overflow: hidden;
+
+        }
+
+        /* .box img{
+           position: absolute;
+           top: 196px;
+           left: 0;
+           width: 301px;
+           height: 11px;
+          
+           transform-origin:100% 50%;
+           animation:move 12s  linear infinite;
+       } */
+        .jie {
+            width: 301px;
+            height: 11px;
+            margin-top: 265px;
+            display: none;
+            /* background-color: blanchedalmond; */
+        }
+
+        .zheng {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 500px;
+            height: 277px;
+            /* background-color: blueviolet; */
+            transform-origin: 55% 99%;
+            transform: rotateZ(215deg);
+            animation: move 3s forwards;
+
+
+        }
+
+        @keyframes move {
+            0% {
+                transform: rotateZ(215deg);
+            }
+
+            100% {
+                transform: rotateZ(360deg);
+            }
+
+
+        }
+
+        .on {
+            position: absolute;
+            top: 51px;
+            right: 230px;
+            z-index: 4;
+            display: none;
+        }
+
+        #jumpTo {
+            display: none;
+        }
+
+        .jing {
+            width: 84px;
+    height: 47px;
+    position: absolute;
+    top: 530px;
+    right: 893px;
+    overflow: hidden;
+    transform: rotateZ(14deg);
+
+        }
+      
+
+        .j_shansui {
+            /* overflow: hidden; */
+            width: 79px;
+            height: 47px;
+            transform-origin: 46% 10%;
+            animation: moves 3s forwards;
+        }
+        @keyframes moves {
+            0% {
+
+                transform: rotateZ(-144deg);
+            }
+
+            100% {
+                transform: rotateZ(0deg);
+            }
+
+
+        }
+
+        .j_box {
+            position: relative;
+            top: 532px;
+            right: -984px;
+            width: 150px;
+            height: 150px;
+            /* background-color: red; */
+        }
+
+        .j_suizi {
+            width: -1px;
+            height: 150px;
+            transform-origin: top left;
+            animation: movet 1s alternate infinite;
+        }
+        @keyframes movet {
+            0% {
+
+                transform: rotateZ(0deg);
+            }
+
+            100% {
+                transform: rotateZ(30deg);
+            }
+
+
+        }
+       
+
+
+        /* .zh {
+            width: 500px;
+            height: 277px;
+        } */
+    </style>
+    <script type="text/javascript">
+        function countDown(secs, surl) {
+            //alert(surl); 
+            var jumpTo = document.getElementById('jumpTo');
+            jumpTo.innerHTML = secs;
+            if (--secs > 0) {
+                setTimeout("countDown(" + secs + ",'" + surl + "')", 1000);
+            } else {
+                location.href = surl;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <span id="jumpTo">5</span>
+    <div class="img">
+        <div class="box">
+            <img src="../images/j-扇子一.png" alt="" class="jie">
+            <img src="../images/j-扇子2.png" alt="" class="zheng">
+            <!-- <img src="../images/扇子2.png" alt="" class="zh"> -->
+            <img src="../images/j-logo2.png" alt="" class="on">
+
+        </div>
+        <!-- <div class="jing">
+            <img src="../images/j-扇形.png" alt="" class="j-shansui">
+        </div> -->
+
+    </div>
+    <div class="jing">
+        <img src="../images/j-扇形.png" alt="" class="j_shansui">
+
+    </div>
+    <div class="j_box">
+        <img src="../images/j-花穗.png" alt="" class="j_suizi">
+    </div>
+
+    <script>
+        var on = document.querySelector(".on")
+        setTimeout(function () {
+            on.style.display = "block";
+        }, 3000);
+    </script>
+    <script type="text/javascript">
+            countDown(5, "../html/j-index.html");
+        </script>
+</body>
+
+
+
+</html>
