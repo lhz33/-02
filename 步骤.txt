@@ -1,0 +1,105 @@
+获取用户信息
+	get
+	url
+	无参数
+	回调函数
+	获取缓存中的那个数据(把headers添加到请求过滤器中)
+	success回调函数	
+	添加会带函数 complete:function(){ 如果热水.responseJSON,如果 他的status ==1 并且 message == "..",清空缓存,强制跳转登陆页面}
+	调用渲染函数
+
+渲染头像和昵称
+	获取用户昵称 判断是否有 user.nickname 和username
+	设置欢迎的文本
+	渲染图片头像
+`	判断user_oic是否等于null ,不为空就渲染图片头像,隐藏文字头像
+	为空就i相反,让文本的第一个字符  转成大写的
+
+退出
+	创建layui实例 layer
+	给推出添加idbtnLogOut
+	绑定点击事件
+	layui-> 内置模块   =>confirm
+	
+	清空缓存  
+	重新跳转登录页面
+
+	解决 退出还能访问主页
+
+提交代码
+	提交本地commit
+	提交到远程 
+
+
+个人中心->基本资料
+	新建文件夹 user
+	css->user->新建user_info..css
+	修改a链接的跳转页面
+	
+	面板->卡片区域(?让表单变小)
+	整理页面外表
+	初始化用户信息
+	get 
+	url
+	添加表单的内容
+``	重置按钮,调用添加表单的事件即可
+	
+	提交修改的事件
+	监听表单的提交事件  查看文档
+	修改index.html中的头像和欢迎文本时  要使用window的父亲调用函数
+
+个人中心=>种植密码
+	步骤与基本资料相似  
+	
+
+
+
+
+
+
+
+
+
+
+
+提交user
+	git add .添加到暂存区
+	git commit -m 提交到本地仓库
+	git push -u origin user 推送分支到原曾
+	git checkout master切换到主分支
+	git merge user合并到主分支
+	在git push一下k
+
+	创建分支
+	获取文章类别 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
